@@ -44,25 +44,23 @@ we have three primary <em>Collections</em> to work with:</p>
 <li class="has-line-data" data-line-start="45" data-line-end="46">name [string]</li>
 <li class="has-line-data" data-line-start="46" data-line-end="47">ct_id [integer]</li>
 <li class="has-line-data" data-line-start="47" data-line-end="48">students [array/int]</li>
-<li class="has-line-data" data-line-start="48" data-line-end="57">subjects [array/map]
+<li class="has-line-data" data-line-start="48" data-line-end="55">subjects [array/map]
 <ul>
 <li class="has-line-data" data-line-start="49" data-line-end="50">t_id [integer]</li>
 <li class="has-line-data" data-line-start="50" data-line-end="51">title [string]</li>
-<li class="has-line-data" data-line-start="51" data-line-end="57">gen_feedback [map]
+<li class="has-line-data" data-line-start="51" data-line-end="55">gen_feedback [map]
 <ul>
-<li class="has-line-data" data-line-start="52" data-line-end="53">r_1 [integer]</li>
-<li class="has-line-data" data-line-start="53" data-line-end="54">r_2 [integer]</li>
-<li class="has-line-data" data-line-start="54" data-line-end="55">r_3 [integer]</li>
-<li class="has-line-data" data-line-start="55" data-line-end="57">comment [string]</li>
+<li class="has-line-data" data-line-start="52" data-line-end="53">r_n [array/int]</li>
+<li class="has-line-data" data-line-start="53" data-line-end="55">comment [string]</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<p class="has-line-data" data-line-start="57" data-line-end="59">The main tree of the database, this collection brings the other two together under a working model.<br>
+<p class="has-line-data" data-line-start="55" data-line-end="57">The main tree of the database, this collection brings the other two together under a working model.<br>
 The <strong>ct_id</strong> can be used to query against the <strong><em>teachers</em></strong> database for <strong>is_ct</strong> checks against the section’s <strong>name</strong>, allowing for an easy check whether the teacher in question can edit the other fields.</p>
-<p class="has-line-data" data-line-start="60" data-line-end="61">The <strong>students</strong> array is an array of the <strong>reg_no</strong>s of all the students that are in that particular section. Once a student is added, their <em>students/section</em> string gets initialised as a constant.</p>
-<p class="has-line-data" data-line-start="62" data-line-end="64">The <strong><em>subjects</em></strong> array must be initialised by the Class Teacher before the addition of the students, and consists of maps (our generic subject) that relates each <strong>title</strong> with the <strong>t_id</strong> that can be queried against the <strong><em>teachers</em></strong> database.<br>
-It also contains another map, <strong>gen_feedback</strong> which contains the three ratings obtained from hardcoded questions, and the ability to store a string <strong>comment</strong>.</p>
+<p class="has-line-data" data-line-start="58" data-line-end="59">The <strong>students</strong> array is an array of the <strong>reg_no</strong>s of all the students that are in that particular section. Once a student is added, their <em>students/section</em> string gets initialised as a constant.</p>
+<p class="has-line-data" data-line-start="60" data-line-end="62">The <strong><em>subjects</em></strong> array must be initialised by the Class Teacher before the addition of the students, and consists of maps (our generic subject) that relates each <strong>title</strong> with the <strong>t_id</strong> that can be queried against the <strong><em>teachers</em></strong> database.<br>
+It also contains another map, <strong>gen_feedback</strong> which contains an array of ratings obtained from hardcoded questions, and the ability to store a string <strong>comment</strong>.</p>
 
 </body></html>
