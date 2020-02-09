@@ -1,4 +1,4 @@
-package com.example.feedback1;
+package com.example.feedback;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.feedback1", appContext.getPackageName());
+        assertEquals("com.example.feedback", appContext.getPackageName());
     }
 }

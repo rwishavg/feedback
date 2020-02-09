@@ -1,4 +1,4 @@
-package com.example.feedback1;
+package com.example.feedback;
 
 import org.junit.Test;
 
