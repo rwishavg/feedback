@@ -9,12 +9,45 @@ import android.widget.Button;
 
 public class P3 extends AppCompatActivity {
 
-    @Override
+
+    private Button button8;
+    private Button button7;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_p3);
+        button8 = (Button) findViewById(R.id.teacher_continue);
+        button7 = (Button) findViewById(R.id.teacher_check);
+
+        button8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMainActivity();
+            }
+        });
+
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openP3();
+            }
+        });
 
     }
+    public void openMainActivity() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
+
+    public void openP3() {
+        Intent intent = new Intent(this, P3.class);
+        startActivity(intent);
+    }
+
+
+
+
+}
+
 
 

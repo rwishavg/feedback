@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class P2 extends AppCompatActivity {
 
@@ -23,7 +24,20 @@ public class P2 extends AppCompatActivity {
                 openP3();
             }
         });
+
+        EditText mEdit;
+
+        mEdit   = (EditText)findViewById(R.id.editText);
+        mEdit.getText().toString();
+
+        EditText mEdit2;
+
+        mEdit2   = (EditText)findViewById(R.id.editText2);
+        mEdit2.getText().toString();
     }
+
+
+
 
 
     public void openP3() {
