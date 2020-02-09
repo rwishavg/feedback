@@ -23,7 +23,21 @@ public class MainActivity extends AppCompatActivity {
                 openP2();
             }
         });
+
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openP5();
+            }
+        });
     }
+
+
+    public void openP5() {
+        Intent intent = new Intent(this, P5.class);
+        startActivity(intent);
+    }
+
 
     public void openP2() {
         Intent intent = new Intent(this, P2.class);
