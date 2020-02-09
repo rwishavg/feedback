@@ -7,9 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+
 public class P5 extends AppCompatActivity {
 
     private Button button9 ;
+    DocumentReference db =  FirebaseFirestore.getInstance().collection("students").document();
+    private static final String TAG = P5.class.getSimpleName();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +29,9 @@ public class P5 extends AppCompatActivity {
                 openP6();
             }
         });
+
+
+
     }
     public void openP6() {
         Intent intent = new Intent(this, P6.class);

@@ -62,6 +62,7 @@ public class P2 extends AppCompatActivity {
                                 Log.w(TAG, "Error writing document", e);
                             }
                         });
+
                 openP3();
             }
         });
