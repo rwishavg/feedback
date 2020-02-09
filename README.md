@@ -18,12 +18,11 @@ Affix an image of the flow diagram/architecture diagram of the solution
 
 #### Technical Description
 
-An overview of 
-* What technologies/versions were used
-* Setup/Installations required to run the solution
-* Instructions to run the submitted code
+The technologies used by our team in the production of
 
 ### Team Members
 ----------------------------------
 
-List of team member names and email IDs with their contributions
+@rwishavg
+@aniketgautam3
+@LuluTheThug
