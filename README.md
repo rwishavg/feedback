@@ -18,11 +18,16 @@ Affix an image of the flow diagram/architecture diagram of the solution
 
 #### Technical Description
 
-The technologies used by our team in the production of
+The technologies used by our team in the production of our solution are listed as follows:
+- Visual Studio Code [[v1.42](https://code.visualstudio.com/)]
+- Git SCM - [[v2.25.0](https://git-scm.com/)]
+- Android Studio 
 
 ### Team Members
 ----------------------------------
 
 @rwishavg
+
 @aniketgautam3
+
 @LuluTheThug
