@@ -9,22 +9,18 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button button;
-    private Button button2;
+    Button button = findViewById(R.id.button_teacher);
+    Button button1 = findViewById(R.id.button_student);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        button = (Button) findViewById(R.id.button_teacher);
-
-        //  button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                  openP2();
+                openP2();
             }
         });
     }
@@ -33,4 +29,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, P2.class);
         startActivity(intent);
     }
+
 }
