@@ -54,8 +54,14 @@ Then, the project can simply be built, modified, or deployed as seen fit.
 ### Team Members
 ----------------------------------
 
-@rwishavg
+[Rwishav Ghosh](https://github.com/rwishavg)
+- Frontend
+  - Layouts
 
-@aniketgautam3
+[Aniket Gautam](https://github.com/aniketgautam3)
 
-@LuluTheThug
+[Mananveer Singh](https://github.com/LuluTheThug)
+- Backend
+  - Data structures
+  - Indexes and queries
+  - **Debugging**
