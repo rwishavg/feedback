@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="400dp"
         android:ems="10"
         android:hint="EMP. ID"
@@ -35,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="150dp"
         android:layout_marginBottom="300dp"
         android:ems="10"
         android:hint="SECTION"
@@ -50,6 +51,7 @@
         android:id="@+id/p2_btn1"
         android:layout_width="148dp"
         android:layout_height="40dp"
+        android:layout_marginTop="300dp"
         android:layout_marginBottom="100dp"
         android:text="ADD DETAILS"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,11 +60,17 @@
         app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="379dp" />
+        android:id="@+id/p2_btn2"
+        android:layout_width="146dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="CHECK DETAILS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.522" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
