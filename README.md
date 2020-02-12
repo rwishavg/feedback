@@ -57,11 +57,11 @@ Then, the project can simply be built, modified, or deployed as seen fit.
 [Rwishav Ghosh](https://github.com/rwishavg)
 - Frontend
   - Layouts
+  - Indexes and Queries
 
 [Aniket Gautam](https://github.com/aniketgautam3)
 
 [Mananveer Singh](https://github.com/LuluTheThug)
 - Backend
   - Data structures
-  - Indexes and queries
   - **Debugging**
