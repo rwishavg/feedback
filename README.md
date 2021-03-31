@@ -61,7 +61,7 @@ Then, the project can simply be built, modified, or deployed as seen fit.
 
 [Aniket Gautam](https://github.com/aniketgautam3)
 
-[Mananveer Singh](https://github.com/LuluTheThug)
+[Mananveer Singh](https://github.com/Legoeggolas)
 - Backend
   - Data structures
   - **Debugging**
